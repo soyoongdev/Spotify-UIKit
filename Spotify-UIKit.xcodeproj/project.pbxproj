@@ -14,6 +14,7 @@
 		711A524E2CE3C7B600920983 /* Spotify_UIKit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 711A524C2CE3C7B600920983 /* Spotify_UIKit.xcdatamodeld */; };
 		711A52502CE3C7B800920983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 711A524F2CE3C7B800920983 /* Assets.xcassets */; };
 		711A52532CE3C7B800920983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711A52512CE3C7B800920983 /* LaunchScreen.storyboard */; };
+		711A525C2CE3C7F300920983 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A525B2CE3C7F300920983 /* UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		711A524F2CE3C7B800920983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		711A52522CE3C7B800920983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		711A52542CE3C7B800920983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		711A525B2CE3C7F300920983 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,15 @@
 		711A52422CE3C7B600920983 /* Spotify-UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				711A52622CE456B500920983 /* Views */,
+				711A52612CE456AD00920983 /* Resources */,
+				711A52602CE456A700920983 /* Managers */,
+				711A525F2CE4569E00920983 /* ViewModels */,
+				711A525E2CE4569600920983 /* Models */,
+				711A525D2CE4569100920983 /* Controllers */,
+				711A525A2CE3C7CA00920983 /* Extensions */,
 				711A52432CE3C7B600920983 /* AppDelegate.swift */,
 				711A52452CE3C7B600920983 /* SceneDelegate.swift */,
-				711A52472CE3C7B600920983 /* ViewController.swift */,
 				711A52492CE3C7B600920983 /* Main.storyboard */,
 				711A524F2CE3C7B800920983 /* Assets.xcassets */,
 				711A52512CE3C7B800920983 /* LaunchScreen.storyboard */,
@@ -68,6 +76,57 @@
 				711A524C2CE3C7B600920983 /* Spotify_UIKit.xcdatamodeld */,
 			);
 			path = "Spotify-UIKit";
+			sourceTree = "<group>";
+		};
+		711A525A2CE3C7CA00920983 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				711A525B2CE3C7F300920983 /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		711A525D2CE4569100920983 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				711A52472CE3C7B600920983 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		711A525E2CE4569600920983 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		711A525F2CE4569E00920983 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		711A52602CE456A700920983 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		711A52612CE456AD00920983 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		711A52622CE456B500920983 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				711A525C2CE3C7F300920983 /* UIView.swift in Sources */,
 				711A52482CE3C7B600920983 /* ViewController.swift in Sources */,
 				711A524E2CE3C7B600920983 /* Spotify_UIKit.xcdatamodeld in Sources */,
 				711A52442CE3C7B600920983 /* AppDelegate.swift in Sources */,
